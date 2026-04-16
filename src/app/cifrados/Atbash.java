@@ -11,4 +11,8 @@ public class Atbash {
         }
         return resultado;
     }
+
+    public static String descifrar(String texto) {
+        return cifrar(texto);
+    }
 }
